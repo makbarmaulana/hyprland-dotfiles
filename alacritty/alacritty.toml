@@ -1,0 +1,20 @@
+# General
+import = ['./tokyo-night.toml']
+live_config_reload = true
+
+# Window
+[window]
+opacity = 0.8
+dynamic_padding = true
+
+[window.padding]
+x = 10
+y = 10
+
+# Font
+[font]
+size = 10.0
+
+[font.normal]
+family = 'Jetbrains Mono Nerd Font'
+style = 'Medium'
