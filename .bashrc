@@ -2,6 +2,7 @@
 [[ $- != *i* ]] && return
 PS1='\[\033[0;36m\]\u\[\033[0;34m\]@\[\033[0;34m\]\h: \[\033[0;35m\]\w\[\033[0;36m\]\$\[\033[0m\] '
 
+DOTFILES="$HOME/.dotfiles"
 
 # -----------------------------------------------------
 # ALIASES
@@ -43,6 +44,7 @@ alias gst="git stash"
 alias gsp="git stash; git pull"
 alias gco="git checkout"
 alias gcl="git clone"
+alias git-monitor="$DOTFILES/utils/git-monitor.sh"
 
 
 # -----------------------------------------------------
