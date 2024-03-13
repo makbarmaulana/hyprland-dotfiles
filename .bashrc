@@ -56,3 +56,5 @@ function ps {
     git status
 }
 
+# Starship
+eval "$(starship init bash)"
