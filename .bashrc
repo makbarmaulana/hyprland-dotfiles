@@ -26,6 +26,7 @@ alias cat="bat"
 alias mkdir="mkdir -p"
 alias bashconf="$EDITOR ~/.bashrc"
 alias hyprconf="$EDITOR ~/.config/hypr/hyprland.conf"
+alias dotfiles="$DOTFILES/install.sh"   # dotfiles [OPTION: -i|--install | -U|--uninstall]
 
 
 # -----------------------------------------------------
@@ -44,7 +45,7 @@ alias gst="git stash"
 alias gsp="git stash; git pull"
 alias gco="git checkout"
 alias gcl="git clone"
-alias git-monitor="$DOTFILES/utils/git-monitor.sh"
+alias git-monitor="$DOTFILES/utils/git-monitor.sh"  # git-monitor <dir>
 
 
 # -----------------------------------------------------
