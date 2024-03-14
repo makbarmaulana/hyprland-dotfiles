@@ -10,6 +10,7 @@ DOTFILES="$HOME/.dotfiles"
 
 # Utility
 alias bashreload="source ~/.bashrc"
+alias zshreload="source ~/.zshrc"
 alias l="eza -al -s="type" --icons"
 alias ll="eza -a -s="type" --icons"
 alias ls="eza -D --icons"
@@ -25,6 +26,7 @@ alias neofetch="clear; neofetch"
 alias cat="bat"
 alias mkdir="mkdir -p"
 alias bashconf="$EDITOR ~/.bashrc"
+alias zshconf="$EDITOR ~/.zshrc"
 alias hyprconf="$EDITOR ~/.config/hypr/hyprland.conf"
 alias dotfiles="$DOTFILES/install.sh"   # dotfiles [OPTION: -i|--install | -U|--uninstall]
 
@@ -59,5 +61,3 @@ function ps {
     git status
 }
 
-# Starship
-eval "$(starship init bash)"
