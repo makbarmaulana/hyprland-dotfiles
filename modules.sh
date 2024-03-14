@@ -4,6 +4,7 @@
 
 root_modules=(
     ".bashrc"
+    ".zshrc"
 )
 
 config_modules=(
@@ -15,5 +16,6 @@ config_modules=(
     "alacritty"
     "neofetch"
     "nvim"
+    "yazi"
 )
 
