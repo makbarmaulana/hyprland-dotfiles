@@ -7,3 +7,6 @@ source ~/.dotfiles/.aliases
 
 # Starship
 eval "$(starship init bash)"
+
+neofetch
+
