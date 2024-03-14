@@ -1,4 +1,6 @@
-export DOTFILES="$HOME/.dotfiles"
+#!/usr/bin/env bash
+
+DOTFILES=$HOME/.dotfiles
 
 # -----------------------------------------------------
 # ALIASES

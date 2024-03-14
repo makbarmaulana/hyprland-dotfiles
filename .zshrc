@@ -6,6 +6,7 @@ fi
 export EDITOR=nvim
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export MANPATH="/usr/local/man:$MANPATH"
+export DOTFILES=$HOME/.dotfiles
 export ZSH=$DOTFILES/.oh-my-zsh
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -14,7 +15,6 @@ ENABLE_CORRECTION="true"
 zstyle ":omz:update" mode auto
 zstyle ":omz:update" frequency 14
 
-# Plugins
 plugins=(
     git
     fzf
