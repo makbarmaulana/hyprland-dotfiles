@@ -3,6 +3,9 @@
 </h1>
 <br />
 
+![image](https://github.com/makbarmaulana/hyprland-dotfiles/assets/92363152/6d2db671-9f66-43e1-89ad-f01479ae87fd)
+
+
 ## Details
 
 | Aspect           | Software        |
